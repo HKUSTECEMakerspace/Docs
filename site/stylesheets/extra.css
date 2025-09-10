@@ -1,0 +1,81 @@
+:root {
+    --md-primary-fg-color: #F37333;
+    --md-primary-fg-color--light: #F37333;
+    --md-primary-fg-color--dark: #F37333;
+    --md-accent-fg-color: #F37333;
+    --md-accent-fg-color--transparent: rgba(243, 115, 51, 0.1);
+}
+
+/* Make navbar text black */
+.md-tabs__link {
+    color: black !important;
+}
+
+.md-header__topic {
+    color: black !important;
+}
+
+.md-header__button {
+    color: black !important;
+}
+
+.md-search__input {
+    color: black !important;
+}
+
+.md-search__input::placeholder {
+    color: rgba(0, 0, 0, 0.7) !important;
+}
+
+
+
+/* Optional: Style links with your color */
+.md-content a {
+    color: #F37333;
+}
+
+.md-content a:hover {
+    color: #d65b1c;
+}
+
+
+.center-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 70vh;
+    text-align: center;
+    padding: 2rem;
+}
+
+.center-logo {
+    max-width: 300px;
+    margin-bottom: 2rem;
+}
+
+.title {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #F37333;
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    color: white;
+    font-style: italic;
+}
+
+
+/* Remove footer */
+.md-footer-meta {
+    display: none !important;
+}
+
+.md-footer-copyright {
+    display: none !important;
+}
+
+.md-footer {
+    display: none !important;
+}
