@@ -1,0 +1,3 @@
+lantana
+mkdocs
+pymdown-extensions
